@@ -1,0 +1,96 @@
+body{
+    color: rgb(247, 218, 218);
+    text-align: center;
+}
+.divCenterR{
+    /* background-color: rgb(24, 52, 96);
+    font-family: 'Dancing Script', cursive; */
+    width: auto;
+    padding: 1%;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+.headerArea{ 
+    display: flex;
+}
+.headerSection{
+    width: 50%;
+    
+}
+.headerSection.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    /* color: rgb(246, 206, 206); */
+    padding-top: 2%;
+    text-align: left;
+    font-size: 64px;
+    font-family: 'DM sans';
+    margin-bottom: 0%;
+
+}
+.description{
+    font-size: 24px;
+}
+.sectiontitle{
+    font-size: 40px;
+    text-align: center;
+}
+
+.featuresHeader{
+    font-size: 48px;
+}
+.featureSection{
+    display: flex;
+    justify-content: space-between;
+}
+.singleFeature{
+    margin-left: 20px;
+}
+.featureName{
+    font-size: 32px;
+}
+.featureInfo{
+    font-size: 21px;
+    text-align: left;
+}
+
+.click{
+    color: rgb(247, 218, 218);
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.click:hover{
+    color: rgb(246, 206, 206);
+    text-shadow: 3px 3px rgb(93, 129, 188);
+    text-decoration: none;
+}
+.imgR{
+    width: 90%;
+    height: 450px;
+    padding:1%;
+    margin: 2%;
+}
+.imgR:hover{
+    box-shadow: 6px 6px rgb(246, 206, 206);
+}
+.venmoCode{
+    color: rgb(246, 206, 206);
+    width: 100%;
+}
+.smallHeading{
+    color: rgb(246, 206, 206);
+    padding-top: 0%;
+    font-size: 35px;
+}
+.venmoCode{
+    color: rgb(246, 206, 206);
+    width: 100%;
+}
+.venmo{
+    color: rgb(246, 206, 206);
+    font-size: 50px;
+}

@@ -1,0 +1,92 @@
+body{
+    color: rgb(247, 218, 218);
+    text-align: center;
+}
+.divCenter{
+    background-color: rgb(24, 52, 96);
+    font-family: 'Dancing Script', cursive;
+    width: auto;
+    padding: 0%;
+    border-radius: 30px;
+    margin-top: 3%;
+}
+.headdingR{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 70px;
+    /* font-family: 'Dancing Script', cursive; */
+}
+.coverImage{
+    width: 100%;
+    padding: 2%;
+}
+#welTitle{
+    margin-bottom: 0%;
+}
+#thanTitle{
+    padding-top: 0%;
+}
+.BodyOfTextR{
+    text-align: center;
+    font-size: 40px;
+}
+.BodyOfTextR a{
+    text-align: center;
+    font-size: 40px;
+}
+.sectiontitleR{
+    font-size: 50px;
+    text-align: center;
+}
+.clickRsvp{
+    color: rgb(247, 218, 218);
+    text-align: center;
+    text-decoration: none;
+}
+.clickRsvp:hover{
+    color: rgb(246, 206, 206);
+    text-shadow: 3px 3px rgb(93, 129, 188);
+    text-decoration: none;
+}
+#rvIn{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+}
+
+@media only screen and (max-width: 500px) {
+    .divCenter{
+        /* width: 70%; */
+        width: 13rem;
+        margin: 0%;
+        border: 5%;
+        padding: 2%;
+        position: relative;
+    }
+
+    .headdingR{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Dancing Script', cursive;
+    }
+    .coverImage{
+        width: 100%;
+        padding: 2%;
+    }
+    .BodyOfTextR{
+        font-size: 15px;
+    }
+    .BodyOfTextR a{
+        font-size: 15px;
+    }
+    .sectiontitleR{
+        font-size: 15px;
+    }
+    #rvIn{
+        font-size: 25px;
+        padding-top: 2%;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+    }
+}

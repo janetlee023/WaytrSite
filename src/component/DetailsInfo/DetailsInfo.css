@@ -1,0 +1,65 @@
+body{
+    color: rgb(247, 218, 218);
+    text-align: center;
+}
+.headding{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 60px;
+}
+.BodyOfTextM{
+    font-size: 50px;
+    text-align: center;
+}
+.sectiontitle{
+    font-size: 40px;
+    text-align: center;
+}
+.clickRsvp:hover{
+    color: rgb(246, 206, 206);
+    text-shadow: 3px 3px rgb(93, 129, 188);
+}
+#imgMap{
+    width: 100%;
+    margin: 25%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+#imgMap:hover{
+    box-shadow: 6px 6px rgb(246, 206, 206);
+}
+#address{
+    font-size: 60px; 
+}
+.dpeak,a{ 
+    color: rgb(246, 206, 206);
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(246, 206, 206);
+    text-shadow: 3px 3px rgb(93, 129, 188);
+}
+@media only screen and (max-width: 500px) {
+
+    #imgMap{
+        width: 100%;
+        margin: 5%;
+        margin-left:3%;
+    }
+    .headding{
+        font-size: 30px;
+    }
+    .BodyOfTextM{
+        font-size: 25px;
+    }
+    .sectiontitle{
+        font-size: 20px;
+    }
+    #address{
+        font-size: 20px; 
+    }
+
+}

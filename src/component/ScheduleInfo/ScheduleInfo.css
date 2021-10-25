@@ -1,0 +1,44 @@
+body{
+    color: rgb(247, 218, 218);
+    text-align: center;
+}
+/* .divCenter{
+    font-size: 20px;
+} */
+#dateFo{
+    padding-top: 2%;
+    text-align: center;
+    font-size: 60px;
+}
+.listItem{
+    background-color: rgb(24, 52, 96);
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+.sectiontitle{
+    font-size: 40px;
+    text-align: center;
+}
+.inbetweenSpace{
+    background-color: rgb(234,184,181);
+    padding: 5%;
+}
+.titleName{
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #dateFo{
+        font-size:35px;
+    }
+    .scheduleList{
+        font-size: 15px;
+    }
+    .sectiontitle{
+        font-size: 20px;
+    }
+
+}
