@@ -2,8 +2,8 @@ import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import RSVP from "./component/pages/RSVP/RSVP.js";
 import Registry from "./component/pages/Registry/Registry";
-import Details from "./component/pages/Details/Details.js";
-import Schedule from "./component/pages/Schedule/Schedule.js";
+import Prices from "./component/pages/Prices/Prices.js";
+import Team from "./component/pages/Team/Team.js";
 import Wrapper from "./component/Wrapper/Wrapper";
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
         <Switch>
           <Route exact path={["/", "/Home"]} component={Registry} />
           <Route exact path={["/Registry"]} component={Registry} />
-          <Route exact path={["/Details"]} component={Details} />
-          <Route exact path={["/Schedule"]} component={Schedule} />
+          <Route exact path={["/Prices"]} component={Prices} />
+          <Route exact path={["/Team"]} component={Team} />
         </Switch>
       </Wrapper>
     </div>

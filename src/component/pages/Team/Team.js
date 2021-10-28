@@ -1,21 +1,21 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import "./Schedule.css";
+import "./Team.css";
 import NavBar from "../../NavBar/NavBar";
 import Footer from "../../Footer/Footer";
 import Wrapper from "../../Wrapper/Wrapper";
-import ScheduleInfo from "../../ScheduleInfo/ScheduleInfo"
+import TeamInfo from "../../TeamInfo/TeamInfo"
 
-function Schedule() {
+function Team() {
   return (
     <div>
     <NavBar />
     <Wrapper>
-      <ScheduleInfo/>
+      <TeamInfo/>
     </Wrapper>
     <Footer/>
   </div>
   );
 }
 
-export default Schedule;
+export default Team;

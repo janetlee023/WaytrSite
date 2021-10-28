@@ -1,11 +1,11 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import "./DetailsInfo.css";
+import "./PriceInfo.css";
 import Venmo from "../../assets/Images/nadineVenmo.png";
 import Barrel from "../../assets/Images/nadAndEricBarrel.jpg"
 import HoneyFund from "../../assets/Images/honeyFund.png"
 import PayPal from "../../assets/Images/PayPal.png"
-function DetailsInfo() {
+function PriceInfo() {
   return (
     <div>
       <div className="container divCenterR">
@@ -71,4 +71,4 @@ function DetailsInfo() {
   );
 }
 
-export default DetailsInfo;
+export default PriceInfo;

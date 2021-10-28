@@ -10,8 +10,9 @@ body{
     border-radius: 30px;
     margin-top: 2%;
 }
-.headerArea{ 
+.homeArea{ 
     display: flex;
+    flex-direction: row;
 }
 .headerSection{
     width: 50%;
@@ -48,9 +49,9 @@ body{
 .singleFeature{
     margin-right: 20px;
 }
-.featureName{
+/* .featureName{
     font-size: 32px;
-}
+} */
 .featureInfo{
     font-size: 21px;
     text-align: left;

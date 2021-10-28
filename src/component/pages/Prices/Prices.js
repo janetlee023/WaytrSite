@@ -1,21 +1,21 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import "./Details.css";
+import "./Prices.css";
 import NavBar from "../../NavBar/NavBar";
 import Footer from "../../Footer/Footer";
 import Wrapper from "../../Wrapper/Wrapper";
-import DetailsInfo from "../../DetailsInfo/DetailsInfo"
+import PriceInfo from "../../PriceInfo/PriceInfo"
 
-function Details() {
+function Prices() {
   return (
     <div>
     <NavBar />
     <Wrapper>
-      <DetailsInfo/>
+      <PriceInfo/>
     </Wrapper>
     <Footer/>
     </div>
   );
 }
 
-export default Details;
+export default Prices;
