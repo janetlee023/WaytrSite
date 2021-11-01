@@ -1,10 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "./PriceInfo.css";
-import Venmo from "../../assets/Images/nadineVenmo.png";
-import Barrel from "../../assets/Images/nadAndEricBarrel.jpg"
-import HoneyFund from "../../assets/Images/honeyFund.png"
-import PayPal from "../../assets/Images/PayPal.png"
+
 function PriceInfo() {
   return (
     <div>
@@ -16,8 +13,8 @@ function PriceInfo() {
                 Pricing Tiers
               </div>
             </div>
-            <div className="pricingTables">
-              <table class="table table-bordered tier">
+            <div className="pricingTables row">
+              <table class="table table-bordered tier col-md-6">
                 <thead>
                   <tr>
                     <th scope="col" className="tierType">Basic</th>
@@ -39,7 +36,7 @@ function PriceInfo() {
                 </tbody>
               </table>
 
-              <table class="table table-bordered tier">
+              <table class="table table-bordered tier col-md-6">
                 <thead>
                   <tr>
                     <th scope="col" className="tierType">Premium</th>

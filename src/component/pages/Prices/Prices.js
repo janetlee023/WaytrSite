@@ -9,10 +9,12 @@ import PriceInfo from "../../PriceInfo/PriceInfo"
 function Prices() {
   return (
     <div>
-    <NavBar />
-    <Wrapper>
-      <PriceInfo/>
-    </Wrapper>
+    <div className = "topPrice">
+      <NavBar />
+      <Wrapper>
+        <PriceInfo/>
+      </Wrapper>
+    </div>
     <Footer/>
     </div>
   );

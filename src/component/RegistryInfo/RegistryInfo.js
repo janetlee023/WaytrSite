@@ -1,73 +1,110 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "./RegistryInfo.css";
-import Venmo from "../../assets/Images/nadineVenmo.png";
-import Barrel from "../../assets/Images/nadAndEricBarrel.jpg"
-import HoneyFund from "../../assets/Images/honeyFund.png"
-import PayPal from "../../assets/Images/PayPal.png"
 function RegistryInfo() {
   return (
     <div>
       <div className="container divCenterR">
         <section>
         <div className="row">
-            <div className="homeArea">
-              <div className="headerSection col-md-6">
-                <p className="heading">
+            <div className="homeArea contactArea">
+              <div className="headerSectionC col-md-8">
+                <p className="headingH">
                   CONTACTLESS.
                 </p>
-                <p className="heading">
+                <p className="headingH">
                   EFFICIENT
                 </p>
-                <div className="description">
+                <p className="descriptionH">
                   Waytr is an app optimizing the operations of restaurants and cafes to the benefit of both workers and users. A simple solution that can make the dining in process smoother all around. 
-                </div>
+                </p>
               </div>
-              <div className="headerSection col-md-6 img">
+              <div className="headerSection col-md-4 img">
                 Image Goes Here
               </div>
             </div>
           </div>
         </section>
+        <div className="container row divCenterR" >
+          <div className="features">
+            <section>
+              <div className="featureSection row ">
+                <div className="featuresHeader">
+                  FEATURES
+                </div>
+                <div className="col-md-4">
+                  <div className="singleFeature">
+                    <p className="featureNameH">
+                      Digital Menu/Payment
+                    </p>
+                    <p className="featureInfoH">
+                      Reduce the risk of covid by minimizing face-to-face interactions between servers and guests through easily accessible on-demand servce and an interactive menu.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="singleFeature col-md-4">
+                    <p className="featureNameH"> 
+                      On-Demand Service
+                    </p>
+                    <p className="featureInfoH">
+                      Providing guests with the power to request service when they require it to keep the dining experience seamless and less pressuring. Waytr acts as a digital server covering requests.
+                    </p>
+                </div>
+
+                <div className="singleFeature col-md-4">
+                    <p className="featureNameH">
+                      Request Management
+                    </p>
+                    <p className="featureInfoH">
+                      Providing service on-demand is the new luxury and subsequently reduces the time wasted by servers by efficient managing diner’s needs through a click of a button. No more aimless hovering.
+                    </p>
+                </div>   
+              </div>
+            </section>
+          </div>
       </div>
-      <div className="container row divCenterR" >
+      </div>
+      {/* <div className="container row divCenterR" >
         <div className="features">
           <section>
-            <div className="featuresHeader row">
-              FEATURES
-            </div>
-            <div className="featureSection row">
-              <div className="singleFeature col-md-4">
-                  <div className="featureName">
+            <div className="featureSection row ">
+              <div className="featuresHeader">
+                FEATURES
+              </div>
+              <div className="col-md-4">
+                <div className="singleFeature">
+                  <p className="featureName">
                     Digital Menu/Payment
-                  </div>
-                  <div className="featureInfo">
+                  </p>
+                  <p className="featureInfo">
                     Reduce the risk of covid by minimizing face-to-face interactions between servers and guests through easily accessible on-demand servce and an interactive menu.
-                  </div>
+                  </p>
+                </div>
               </div>
 
               <div className="singleFeature col-md-4">
-                  <div className="featureName"> 
+                  <p className="featureName"> 
                     On-Demand Service
-                  </div>
-                  <div className="featureInfo">
+                  </p>
+                  <p className="featureInfo">
                     Providing guests with the power to request service when they require it to keep the dining experience seamless and less pressuring. Waytr acts as a digital server covering requests.
-                  </div>
+                  </p>
               </div>
 
               <div className="singleFeature col-md-4">
-                  <div className="featureName">
+                  <p className="featureName">
                     Request Management
-                  </div>
-                  <div className="featureInfo">
+                  </p>
+                  <p className="featureInfo">
                     Providing service on-demand is the new luxury and subsequently reduces the time wasted by servers by efficient managing diner’s needs through a click of a button. No more aimless hovering.
-                  </div>
+                  </p>
               </div>   
 
             </div>
           </section>
         </div>
-      </div>
+      </div> */}
       {/* <div className="container" >
         <div>
           <section>

@@ -1,7 +1,26 @@
-.divCenter{
+/* .divCenter{
     margin-top:15px;
     text-align: inLine;
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 30px;
+} */
+.waytrTop{
+    position: absolute;
+    width: 100%;
+    height: 520px;
+    background: linear-gradient(267.13deg, #1EAE98 32.16%, rgba(255, 255, 255, 0) 109.85%), linear-gradient(87.55deg, #8211FF 25.73%, rgba(106, 8, 215, 0) 99.11%);
+    opacity: 100%;
+    border-radius:0 0 120% 0/0 5% 50%;
+}
+
+@media only screen and (max-width: 500px) {
+    .waytrTop{
+        position: absolute;
+        width: 100%;
+        height: 280px;
+        background: linear-gradient(267.13deg, #1EAE98 32.16%, rgba(255, 255, 255, 0) 109.85%), linear-gradient(87.55deg, #8211FF 25.73%, rgba(106, 8, 215, 0) 99.11%);
+        opacity: 0.75;
+        border-radius:0 0 120% 0/0 5% 50%;
+    }
 }

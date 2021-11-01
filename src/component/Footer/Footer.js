@@ -5,14 +5,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer>
-        {/* <div className="container">
-            <div className="row">
-                <div className="col-lg-12 justify-content-center">
-                Made by Jacqueline Rivera
-                </div>
-            </div>
-        </div> */}
-        <div className="container" >
+        <div className="container foot" >
           <div>
             <section>
               <div>
@@ -20,13 +13,10 @@ function Footer() {
                   WAYTR
                 </div>
                 <div className="info">
-                  123 Example St, New York, 
-                  <br/>
-                  NY 12345-6789
-                  <br/>
-                  hello@example.com
-                  <br/>
-                  (123)-456-7890
+                  <p className="lineItem"> 123 Example St, New York, </p> 
+                  <p className="lineItem"> NY 12345-6789 </p>
+                  <p className="lineItem">hello@example.com</p>
+                  <p className="lineItem">(123)-456-7890</p>
                 </div>
               </div>
             </section>

@@ -11,17 +11,17 @@ function NavBar() {
         </button>
         <div className="collapse navbar-collapse active" id="navbar1">
           <ul className="navbar-nav mx-auto">
-            <li className="nav-item ">
+            <li className="nav-item liH">
                 <Link to = "/Home" className="nav-link atag">Home</Link>
             </li>
-            <li className="nav-item ">
+            <li className="nav-item liH">
                 <Link to = "/Team" className="nav-link atag">Team</Link>
             </li>
-            <li className="nav-item ">
+            <li className="nav-item liH ">
                 <Link to = "/Prices" className="nav-link atag">Prices</Link>
             </li>
-            <li className="nav-item ">
-                <Link to = "/Registry" className="nav-link atag">Process</Link>
+            <li className="nav-item liH">
+                <Link to = "/" className="nav-link atag">Process</Link>
             </li>
           </ul>
         </div>

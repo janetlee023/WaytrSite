@@ -1,10 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "./TeamInfo.css";
-import Venmo from "../../assets/Images/nadineVenmo.png";
-import Barrel from "../../assets/Images/nadAndEricBarrel.jpg"
-import HoneyFund from "../../assets/Images/honeyFund.png"
-import PayPal from "../../assets/Images/PayPal.png"
+
 function TeamInfo() {
   return (
     <div>
@@ -22,11 +19,11 @@ function TeamInfo() {
       <div className="container divCenterR" >
         <div className="team">
           <section>
-            <div className="teamHeader">
+            <div className="teamHeader row">
               Meet The Team!
             </div>
             <div className="memberSection">
-              <div className="member">
+              <div className="member col-md-3">
                 <div className="name">
                   Daniel Kim
                 </div>
@@ -34,7 +31,7 @@ function TeamInfo() {
                   CEO
                 </div>
               </div>
-              <div className="member">
+              <div className="member col-md-3">
                 <div className="name"> 
                   John Kim
                 </div>
@@ -42,15 +39,15 @@ function TeamInfo() {
                   CPO
                 </div>
               </div>
-              <div className="member">
+              <div className="member col-md-3">
                 <div className="name">
                   Joy Kim
                 </div>
-                <div className="info">
+                <div className="info ">
                   CTO
                 </div>
               </div>
-              <div className="member">
+              <div className="member col-md-3">
                 <div className="name">
                   Janet Lee
                 </div>
@@ -58,7 +55,7 @@ function TeamInfo() {
                   Developer
                 </div>
               </div>
-              <div className="member">
+              <div className="member col-md-3">
                 <div className="name">
                   Jacqueline Rivera
                 </div>

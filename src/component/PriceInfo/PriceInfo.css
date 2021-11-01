@@ -90,3 +90,7 @@ body{
     color: rgb(246, 206, 206);
     font-size: 50px;
 }
+.table{
+    z-index: 3;
+    background: white;
+}
