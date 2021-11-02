@@ -1,21 +1,23 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import "./RSVP.css";
+import "./Process.css";
 import NavBar from "../../NavBar/NavBar";
 import Footer from "../../Footer/Footer";
 import Wrapper from "../../Wrapper/Wrapper";
-import RSVPInfo from "../../RSVPInfo/RSVPInfo"
+import ProcessPage from "../../ProcessPage/ProcessPage.js";
 
-function RSVP() {
+function Process() {
   return (
     <div>
+    <div className="waytrTop">
     <NavBar />
     <Wrapper>
-      <RSVPInfo/>
+      <ProcessPage/>
     </Wrapper>
-    <Footer/>
-  </div>
+    </div>
+    <Footer className="footers"/>
+    </div>
   );
 }
 
-export default RSVP;
+export default Process;

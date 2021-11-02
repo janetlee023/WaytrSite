@@ -15,7 +15,7 @@ function Team() {
         <TeamInfo/>
       </Wrapper>
     </div>
-    <Footer/>
+      <Footer/>
   </div>
   );
 }

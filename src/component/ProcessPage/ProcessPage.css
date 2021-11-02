@@ -1,0 +1,143 @@
+body{
+    color: black;
+    text-align: center;
+}
+.divCenterR{
+    /* background-color: rgb(24, 52, 96);
+    font-family: 'Dancing Script', cursive; */
+    width: auto;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+.homeArea{ 
+    display: flex;
+    flex-direction: row;
+}
+.headerSection{
+    width: 50%;
+}
+.headerSection.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headingH{
+    /* color: rgb(246, 206, 206); */
+    padding-top: 2%;
+    text-align: left;
+    font-size: 64px;
+    font-family: 'DM sans';
+    margin-bottom: 0%;
+
+}
+.descriptionP{
+    font-size: 24px;
+    color: black;
+    font-family: 'DM sans';
+    width: 809px;
+}
+.sectiontitle{
+    font-size: 40px;
+    text-align: center;
+}
+
+.featuresHeader{
+    font-size: 48px;
+}
+.featureSection{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .singleFeature{
+    margin: 2px;
+} */
+/* .featureName{
+    font-size: 32px;
+} */
+.featureInfo{
+    font-size: 21px;
+    text-align: left;
+    opacity: 100%;
+}
+
+/* .click{
+    color: rgb(247, 218, 218);
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.click:hover{
+    color: rgb(246, 206, 206);
+    text-shadow: 3px 3px rgb(93, 129, 188);
+    text-decoration: none;
+}
+.imgR{
+    width: 90%;
+    height: 450px;
+    padding:1%;
+    margin: 2%;
+}
+.imgR:hover{
+    box-shadow: 6px 6px rgb(246, 206, 206);
+} */
+/* .venmoCode{
+    color: rgb(246, 206, 206);
+    width: 100%;
+} */
+.smallHeading{
+    color: rgb(246, 206, 206);
+    padding-top: 0%;
+    font-size: 35px;
+}
+.venmoCode{
+    color: rgb(246, 206, 206);
+    width: 100%;
+}
+.venmo{
+    color: rgb(246, 206, 206);
+    font-size: 50px;
+}
+.singleFeature {
+    padding: 0%;
+}
+/* .features{
+    background-color: white;
+} */
+@media only screen and (max-width: 500px) {
+    .homeArea{ 
+        font-size: 15px;
+    }
+    .headerSectionC .heading{
+        font-size: 15px;
+    }
+    .img{
+        visibility: hidden;
+    }
+    .descriptionP{
+        font-size: 10px;
+        width: 100%;
+    }
+    .homeArea{ 
+       width: 100%;
+    }
+    .headingH{
+        /* color: rgb(246, 206, 206); */
+        padding-top: 2%;
+        text-align: left;
+        font-size: 24px;
+        font-family: 'DM sans';
+        margin-bottom: 0%;
+    
+    }
+    .featuresHeader{
+      font-size: 24px;
+    }
+    .featureNameH{
+      font-size: 15px;
+    }
+    .featureInfoH{
+      font-size: 10px;
+    }
+
+}
