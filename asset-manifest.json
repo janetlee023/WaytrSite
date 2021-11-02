@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/NadineAndEricWed/static/css/main.6b820ee2.chunk.css",
+    "main.js": "/NadineAndEricWed/static/js/main.9ddc4c18.chunk.js",
+    "main.js.map": "/NadineAndEricWed/static/js/main.9ddc4c18.chunk.js.map",
+    "runtime-main.js": "/NadineAndEricWed/static/js/runtime-main.4c0bd474.js",
+    "runtime-main.js.map": "/NadineAndEricWed/static/js/runtime-main.4c0bd474.js.map",
+    "static/css/2.818011ed.chunk.css": "/NadineAndEricWed/static/css/2.818011ed.chunk.css",
+    "static/js/2.94a27777.chunk.js": "/NadineAndEricWed/static/js/2.94a27777.chunk.js",
+    "static/js/2.94a27777.chunk.js.map": "/NadineAndEricWed/static/js/2.94a27777.chunk.js.map",
+    "index.html": "/NadineAndEricWed/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/NadineAndEricWed/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.6b820ee2.chunk.css.map": "/NadineAndEricWed/static/css/main.6b820ee2.chunk.css.map",
+    "static/js/2.94a27777.chunk.js.LICENSE.txt": "/NadineAndEricWed/static/js/2.94a27777.chunk.js.LICENSE.txt",
+    "static/media/DataFlow.92c2fe05.jpg": "/NadineAndEricWed/static/media/DataFlow.92c2fe05.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c0bd474.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.94a27777.chunk.js",
+    "static/css/main.6b820ee2.chunk.css",
+    "static/js/main.9ddc4c18.chunk.js"
+  ]
+}
